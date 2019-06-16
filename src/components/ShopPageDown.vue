@@ -1,0 +1,59 @@
+<template>
+    <div class="container">
+        <div class="separation_line"></div>
+        <p>Detail</p>
+        <div class="introduction"></div>
+    </div>
+</template>
+
+<script>
+export default {
+    
+}
+</script>
+
+<style scoped>
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.separation_line{
+    background: #f88e7b;
+    width: 100%;
+    height: 7vh;
+    margin-bottom: 2vh;
+}
+
+.introduction{
+    border: #f88e7b 1px solid;
+    width: 50vw;
+    height: 90vh;
+    margin-bottom: 10vh;
+}
+
+p{
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 400px){
+.introduction{
+    border: #f88e7b 1px solid;
+    width: 80vw;
+    height: 90vh;
+    margin-bottom: 10vh;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.separation_line{
+    background: #f88e7b;
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 0;
+}
+}
+</style>

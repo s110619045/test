@@ -1,0 +1,54 @@
+.container{
+    margin:5vw;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,18vw);
+    grid-column-gap: 2rem;
+    grid-row-gap: 6rem;
+}
+
+.container div div:nth-child(1)	{
+    border:1px solid #4240406e;
+    height: 17vw;
+    width: 19vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container div div:nth-child(2)	{
+    padding: 2px;
+}
+
+.container div div:nth-child(3)	{
+    padding: 2px;
+}
+
+/* -------------------rwd------------------- */
+
+@media screen and (max-width: 400px){
+.container{
+    margin:5vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(8,50vw);
+    grid-column-gap: 2rem;
+    grid-row-gap: 3.8rem;
+}
+
+.container div div:nth-child(1)	{
+    border:1px solid #4240406e;
+    height: 50vw;
+    width: 35vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container div div:nth-child(2)	{
+    font-size: 0.8rem;
+}
+
+.container div div:nth-child(3)	{
+    font-size: 0.8rem;
+}
+
+}
